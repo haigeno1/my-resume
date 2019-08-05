@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>my-resume</title>
+  <style>
+      .token.comment,
+      .token.selector,
+      .token.punctuation,
+      .token.property,
+      .token.function{
+          color:black;
+      }
+  </style>
+  <style id="myStyle"></style>
+</head>
+<body>
+  <div class="codeWrapper">
+    <pre id="code"></pre>
+  </div>
+  <div class="resumeWrapper">
+      <pre id="resume"></pre>
+  </div>
+  <script src="./prism.js"></script>
+  <script src="./marked.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
